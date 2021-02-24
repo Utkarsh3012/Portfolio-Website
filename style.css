@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.topnav {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.topnav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+}
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    padding: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+#intro {
+    padding: 10%;
+}
+
+#intro h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin: 10px;
+}
+
+#intro h5 {
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+#intro p {
+    font-size: 25px;
+    margin: 10px;
+}
+
+#intro img {
+    width: 90%;
+    height: 500px;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    background-color: #CCC;
+}
+
+#academic {
+    background-color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.float {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 60px;
+    right: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #999;
+    text-align: center;
+    text-decoration: none;
+}
+
+.my-float {
+    margin-top: 22px;
+}
